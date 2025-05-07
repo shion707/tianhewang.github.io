@@ -9,6 +9,8 @@ redirect_from:
 I am a PhD candidate in the Department of Psychology at UC Berkeley, supervised by Rich Ivry. I am broadly interested in the flexibility of human learning. I build cognitive and neural models to understand how the brain supports multiple learning processes and how these systems interact to enable adaptive behavior. My early PhD work focused on how the sensorimotor system operates under uncertainty from various sources to support efficient adaptation. I am now extending this work to investigate how we plan movements and make decisions when interacting with other agents under uncertainty. I am also interested in the function of the cerebellum, a brain region historically associated with motor control and learning. I develop models to explore the role of the cerebellum in broader cognitive domains such as timing, intuitive physics, and theory of mind. Here you can find the summary of my projects.
 
 
+
+
 Project 1: Target-specific and context-dependent biases in movement reveal fundamental computations underlying motor control
 ======
 Biases in movement offer a window to probe the underlying control mechanisms in motor control. Here we focus on biases at three time scales: 1. stable target-specific bias; 2. bias induced by a prior distribution; 3. bias induced by the last movement. We provide novel models to explain biases at all three levels.
@@ -16,6 +18,8 @@ Biases in movement offer a window to probe the underlying control mechanisms in 
 From the [target-specific bias](https://elifesciences.org/reviewed-preprints/100715), we showed that its pattern largely reflects a mismatch between the proprioceptive space that encodes the hand position and the visual space. Modeling results suggest that participants perceived the target in the visual space and transferred it into a proprioceptive space, and they encoded the motor plan. 
 
 Prior distribution can also induce a central tendency in the reaching. However, contradict to the prevailing belief, we found this bias to be largely non-Bayesian. In particular, while the motor bias is modulated by the specific prior distribution, the motor variance does not. Current work is focusing on understanding the nature of this bias.
+
+
 
 We also identify a novel [trial-by-trial bias](https://pubmed.ncbi.nlm.nih.gov/39416082/) in reaching, where the current movement is biased away from the previous movement. This bias pattern and how it is modulated across various situations suggest an efficient coding mechanism for motor planning. We are now examining how the interaction between the trial-by-trial repulsive bias and prior-induced central tendency reveals how the motor system adapts to the statistical properties of the motor goals. 
 
