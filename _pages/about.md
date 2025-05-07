@@ -6,9 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in the Department of Psychology at UC Berkeley. I am broadly interested in the flexibility in human learning. One focus of my early PhD work is to understand how the sensorimotor system embeds the uncertainty of the environment to efficiently adapt to the environment. Now I am expanding my research to examine how we plan movement and make decisions to incorporate the uncertainty of the other agents. I am also generally interested in the function of the cerebellum, a brain region that has been historically associated with learning. I build cognitive and neural models to understand how the cerebellum is involved in multiple-domain functions. 
-
-
+I am a PhD candidate in the Department of Psychology at UC Berkeley, supervised by Rich Ivry. I am broadly interested in the flexibility of human learning. I build cognitive and neural models to understand how the brain supports multiple learning processes and how these systems interact to enable adaptive behavior. My early PhD work focused on how the sensorimotor system operates under uncertainty from various sources to support efficient adaptation. I am now extending this work to investigate how we plan movements and make decisions when interacting with other agents under uncertainty. I am also interested in the function of the cerebellum, a brain region historically associated with motor control and learning. I develop models to explore the role of the cerebellum in broader cognitive domains such as timing, intuitive physics, and theory of mind.
 
 
 Project 1: Target specific and context-dependent biases in movement reveal fundamental computations underlying motor control
