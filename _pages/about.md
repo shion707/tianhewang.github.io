@@ -19,8 +19,6 @@ From the [target-specific bias](https://elifesciences.org/reviewed-preprints/100
 
 Prior distribution can also induce a central tendency in the reaching. However, contradict to the prevailing belief, we found this bias to be largely non-Bayesian. In particular, while the motor bias is modulated by the specific prior distribution, the motor variance does not. Current work is focusing on understanding the nature of this bias.
 
-
-
 We also identify a novel [trial-by-trial bias](https://pubmed.ncbi.nlm.nih.gov/39416082/) in reaching, where the current movement is biased away from the previous movement. This bias pattern and how it is modulated across various situations suggest an efficient coding mechanism for motor planning. We are now examining how the interaction between the trial-by-trial repulsive bias and prior-induced central tendency reveals how the motor system adapts to the statistical properties of the motor goals. 
 
 
