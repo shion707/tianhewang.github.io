@@ -17,6 +17,8 @@ We examine how the motor system adapts to the uncertainties in two different sys
 
 Our recent work suggests that implicit recalibration is [insensitive to noise of the states](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011951). However, this system showed some unique effects due to the uncertainty in the context. For example, learning is faster but lasts shorter when the environment is more volatile; reversal learning is slower than the original learning; relearning is slower rather than faster when being re-exposed to the same perturbation for the second time. We proposed a [Cerebellar Population Coding model](https://pubmed.ncbi.nlm.nih.gov/37461557/) which provides a unified explanation to the contextual effects in implicit recalibration without referring to any contextual inference process. This model is composed of a simple two-layer network corresponding to the cerebellar cortex and deep cerebellar nuclei, respectively, and the contextual effects are emergent phenomena from the population activation within the model. 
 
+We examine how the action selection system responds to uncertainty with a novel air-hockey game, which requires motor control in multiple dimensions while compensating for the wind that changes across time. The action selection showed a close optimal modulation where noise and vitality of the state have opposite effects on the learning rate. Interestingly, participants perform significantly worse to encountering the uncertainty when playing a non-motor version of the game.
+
  
 Project 1: Target-specific and context-dependent biases in movement reveal fundamental computations underlying motor control
 ======
