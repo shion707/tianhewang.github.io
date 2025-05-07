@@ -19,7 +19,7 @@ Our recent work suggests that implicit recalibration is [insensitive to noise of
 
 We examine how the action selection system responds to uncertainty with a novel air-hockey game, which requires motor control in multiple dimensions while compensating for the wind that changes across time. The action selection showed a close optimal modulation where noise and vitality of the state have opposite effects on the learning rate. Interestingly, participants perform significantly worse in incorporating the uncertainty when playing a non-motor version of the game.
 
-Besides the uncertainty of the physical world, another key source of uncertainty is from the other agents. Incorporating this front of uncertainties requires the ability of theory of mind (ToM). However, knowing others' minds is HARD. My current studies focus on understanding how we make decisions with the uncertainties of others' intentions.
+Besides the uncertainties in the physical world, another key source of uncertainty is from the other agents. Incorporating this front of uncertainties requires the ability of theory of mind (ToM). However, knowing others' minds is HARD. My current studies focus on understanding how we make decisions with the uncertainties of others' intentions.
 
  
 Project 2: Target-specific and context-dependent biases in movement reveal fundamental computations underlying motor control
