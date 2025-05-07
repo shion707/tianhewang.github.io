@@ -6,7 +6,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in the Department of Psychology at UC Berkeley. I am broadly interested in the flexibility in human learning. 
+I am a PhD candidate in the Department of Psychology at UC Berkeley. I am broadly interested in the flexibility in human learning. One focus of my early PhD work is to understand how the sensorimotor system embeds the uncertainty of the environment to efficiently adapt to the environment. Now I am expanding my research to examine how we plan movement and make decisions to incorporate the uncertainty of the other agents. I am also generally interested in the function of the cerebellum, a brain region that has been historically associated with learning. I build cognitive and neural models to understand how the cerebellum is involved in multiple-domain functions. 
+
+
+
 
 Project 1: Target specific and context-dependent biases in movement reveal fundamental computations underlying motor control
 ======
