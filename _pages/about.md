@@ -13,9 +13,9 @@ Project 2: How the brain adapts to the uncertainties in the environment
 ======
 Our motor system needs to due with an enormous amount of noise and uncertainties. For example, our visual and proprioceptive inputs are imperfect, and the internal state of the body and the external environment are changing all the time. It is quite impressive that the nervous system can perform accurate and flxible motor behavior regardless of those uncertainties and noises and apply the skills we learned across contexts, while it is a big challenge for the robotic system to maintain a stable performance across environments. 
 
+We examine how the motor system adapts to the uncertainties in two different systems, the implicit recalibration system and the action selection system. The recalibration system corrects for small errors in an automatic way and[does not require attentional resource](https://pubmed.ncbi.nlm.nih.gov/39282258/), while the action selection system is more flexible and can adjust behavior to meet specific task demands. Our recent work suggests that implicit recalibration is insensitive to [noise of the states](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011951). However, this system showed some unique effects due to the uncertainty in the context. For example, learning is faster but lasts shorter when the environment is more volatile; reversal learning is slower than the original learning; relearning is slower rather than faster when being re-exposed to the same perturbation for the second time. We proposed a [cerebellar-like model](https://pubmed.ncbi.nlm.nih.gov/37461557/) which provides a unified explanation to the contextual effects in implicit recalibration with a simple two-layer network corresponding to the cerebellar cortex and deep cerebellar nuclei. 
 
-
-
+ 
 Project 1: Target-specific and context-dependent biases in movement reveal fundamental computations underlying motor control
 ======
 Biases in movement offer a window to probe the underlying control mechanisms in motor control. Here we focus on biases at three time scales: 1. stable target-specific bias; 2. bias induced by a prior distribution; 3. bias induced by the last movement. We provide novel models to explain biases at all three levels.
