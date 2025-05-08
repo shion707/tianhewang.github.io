@@ -33,7 +33,7 @@ Prior distribution can also induce a central tendency in the reaching. However, 
 We have also identified a novel [trial-by-trial bias](https://pubmed.ncbi.nlm.nih.gov/39416082/) in reaching, where the current movement is biased away from the previous movement. This bias pattern and how it is modulated across various situations suggest an efficient coding mechanism for motor planning. We are now examining how the interaction between the trial-by-trial repulsive bias and prior-induced central tendency reveals how the motor system adapts to the statistical properties of the motor goals. 
 
 
-Project 3: How we learn motor skills
+Project 3: How we learn new motor skills
 ======
 The primary distinction in motor learning is the difference between an adaptation process, which modulates a well-trained behavior to compensate for small perturbations, and a de novo skill learning process, which creates a new action-outcome map from scratch. Most of the current research on motor learning focuses on the simple adaptation process, with the skill learning process largely unknown. In particular, while numerous computational models of different levels have been proposed to quantitatively predict the adaptation process, few models have been developed for skill learning.  
 
@@ -42,7 +42,7 @@ One of my key research interests is to understand the computational mechanism in
 We are building neural network models to explain the different roles of the motor cortex and cerebellum in those tasks.
 
 
-Project 3: How we learn motor skills
+Project 4: How we learn motor skills
 ======
 
 
