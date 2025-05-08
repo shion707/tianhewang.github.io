@@ -11,7 +11,7 @@ I am a PhD candidate in the Department of Psychology at UC Berkeley, supervised 
 
 Project 1: How the brain adapts to the uncertainties in the environment
 ======
-Our motor system needs to due with an enormous amount of noise and uncertainties. For example, our visual and proprioceptive inputs are imperfect, and the internal state of the body and the external environment are changing all the time. It is quite impressive that the nervous system can perform accurate and flxible motor behavior regardless of those uncertainties and noises and apply the skills we learned across contexts, while it is a big challenge for the robotic system to maintain a stable performance across environments. 
+Our motor system needs to due with an enormous amount of noise and uncertainties. For example, our visual and proprioceptive inputs are imperfect, and the internal state of the body and the external environment are changing all the time. It is impressive that the motor system can perform accurate movements and generalize skills regardless of those uncertainties, while it is a big challenge for the robotic system to maintain a stable performance in noisy environments. 
 
 We examine how the motor system adapts to the uncertainties in two different systems, the implicit recalibration system and the action selection system. The recalibration system corrects for small errors in an automatic way and [does not require attentional resource](https://pubmed.ncbi.nlm.nih.gov/39282258/), while the action selection system is more flexible and can adjust behavior to meet specific task demands. 
 
