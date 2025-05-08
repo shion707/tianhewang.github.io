@@ -63,7 +63,7 @@ We are building neural network models to investigate the distinct roles of the m
 
 ---
 
-## Project 4: Unique properties of the implicit recalibration system in sensorimotor adaptation
+## Project 4: Characterize the properties of the implicit sensorimotor recalibration system
 
 <img src="/images/feedbacktiming.png" alt="Description" align="left" width="400">
 
