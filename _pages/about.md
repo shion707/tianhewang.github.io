@@ -49,7 +49,7 @@ We are building neural network models to explain the different roles of the moto
 Project 4: Unique properties of the implicit recalibration system for sensorimotor adaptation
 ======
 The implicit recalibration system showed a unique set of features that is unlike any other learning system. For example, our [recent work](https://pubmed.ncbi.nlm.nih.gov/39282258/) showed that implicit recalibration does not tax attentional resources at all. Whether participants paid attention to the motor task or the feedback, or null, had no influence on the learning rate. This suggests the surprisingly robustness of the system. Moreover, the learning of this system does not require the execution of the movement. We showed that learning is maximized when the visual feedback is [temporally aligned with the motor planning](https://www.sciencedirect.com/science/article/pii/S0960982224001398) rather than the hand movement. Our current work focuses on building computational models to understand the driving force of the implicit recalibration. In particular, we aim to test whether and how multisensory integration is involved in implicit recalibration.
-
+<img src="/images/feedbacktiming.png" alt="Description" align="left" width="300"> 
 
 Project 5: The role of the cerebellum in cognition
 ======
