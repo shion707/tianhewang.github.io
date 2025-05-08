@@ -15,7 +15,7 @@ Our motor system needs to due with an enormous amount of noise and uncertainties
 
 We examine how the motor system adapts to the uncertainties in two different systems, the implicit recalibration system and the action selection system. The recalibration system corrects for small errors in an automatic way and [does not require attentional resource](https://pubmed.ncbi.nlm.nih.gov/39282258/), while the action selection system is more flexible and can adjust behavior to meet specific task demands. 
 
-<img src="/images/cpc.png" alt="Description" align="left" width="500"> 
+<img src="images/cpc.png" alt="Description" align="left" width="500"> 
 
 Our recent work suggests that implicit recalibration is [insensitive to noise of the states](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011951). However, this system showed some unique effects due to the uncertainty in the context. For example, learning is faster but lasts shorter when the environment is more volatile; reversal learning is slower than the original learning; relearning is slower rather than faster when being re-exposed to the same perturbation for the second time. We proposed a [Cerebellar Population Coding model](https://pubmed.ncbi.nlm.nih.gov/37461557/) which provides a unified explanation to the contextual effects in implicit recalibration without referring to any contextual inference process. This model is composed of a simple two-layer network corresponding to the cerebellar cortex and deep cerebellar nuclei, respectively, and the contextual effects are emergent phenomena from the population activation within the model. 
 
