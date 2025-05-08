@@ -44,7 +44,7 @@ We are building neural network models to explain the different roles of the moto
 
 Project 4: The role of the cerebellum in cognition
 ======
-While the cerebellum has been historically regarded as a motor region, emerging research using patients and animal models has suggested the role of the cerebellum in mutiple cognitive domains such as reward-based learning and language. However, how the cerebellum supports those cognitive functions is poorly known at this stage. I applied neurophysiology studies on cerebellar ataxia patients and healthy controls to understand its function in timing, intuitive physics, and theory of mind. 
+While the cerebellum has been historically regarded as a motor region, emerging research using patients and animal models has suggested the role of the cerebellum in mutiple cognitive domains such as reward-based learning and language. However, how the cerebellum supports those cognitive functions is poorly known at this stage. I applied neurophysiology studies on cerebellar ataxia patients and healthy controls to understand its function in [timing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011116), intuitive physics, and theory of mind. 
 
 
 
