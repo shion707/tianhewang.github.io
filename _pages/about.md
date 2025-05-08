@@ -43,8 +43,12 @@ One of my key research interests is to understand the computational mechanism in
 
 We are building neural network models to explain the different roles of the motor cortex and cerebellum in those tasks.
 
+Project 4: Unique properties of the implicit recalibration system for sensorimotor adaptation
+======
+The implicit recalibration system showed a unique set of features that is unlike any other learning system. For example, our [recent work](https://pubmed.ncbi.nlm.nih.gov/39282258/)showed that implicit recalibration does not tax attentional resources at all. Whether participants paid attention to the motor task or the feedback, or null, had no influence on the learning rate. This suggests the surprisingly robustness of the system. Moreover, the learning of this system does not require the execution of the movement. We showed that learning is maximized when the visual feedback is [temporally aligned with the motor planning](https://www.sciencedirect.com/science/article/pii/S0960982224001398) rather than the hand movement. Our current work focuses on building computational models to understand the driving force of the implicit recalibration. In particular, we aim to test whether and how multisensory integration is involved in implicit recalibration.
 
-Project 4: The role of the cerebellum in cognition
+
+Project 5: The role of the cerebellum in cognition
 ======
 While the cerebellum has been historically regarded as a motor region, emerging research using patients and animal models has suggested the role of the cerebellum in mutiple cognitive domains such as reward-based learning and language. However, how the cerebellum supports those cognitive functions is poorly known at this stage. I applied neurophysiology studies on cerebellar ataxia patients and healthy controls to understand its function in [timing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011116), intuitive physics, and theory of mind. 
 
