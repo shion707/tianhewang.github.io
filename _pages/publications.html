@@ -9,28 +9,89 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<body>
+  <h1>Publications</h1>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <h2>Manuscripts under review</h2>
+  <ul>
+    <li>
+      <span class="year">2024</span> – T Wang*, Y Fang, D Whitney<br>
+      <span class="title">Sequential effects in reaching reveal efficient coding in motor planning</span><br>
+      BioRxiv.<br>
+      <a class="link" href="#" target="_blank">View manuscript</a>
+    </li>
+    <li>
+      <span class="year">2024</span> – T Wang*, J Li, RB Ivry<br>
+      <span class="title">Attention defines the context for implicit sensorimotor adaptation</span><br>
+      BioRxiv.<br>
+      <a class="link" href="#" target="_blank">View manuscript</a>
+    </li>
+    <li>
+      <span class="year">2024</span> – T Wang*, RB Ivry<br>
+      <span class="title">Contextual effects during sensorimotor adaptation are an emergent property of population coding in the cerebellum</span><br>
+      BioRxiv.<br>
+      <a class="link" href="#" target="_blank">View manuscript</a>
+    </li>
+  </ul>
+
+  <h2>Peer-reviewed manuscripts</h2>
+  <ul>
+    <li>
+      <span class="year">2024</span> – T Wang, RJ Morehead, JS Tsay, RB Ivry<br>
+      <span class="title">The origin of movement biases during reaching</span><br>
+      eLife<br>
+      <a class="link" href="#" target="_blank">View publication</a>
+    </li>
+    <li>
+      <span class="year">2024</span> – T Wang, G Avraham, JS Tsay, SJ Abram, RB Ivry<br>
+      <span class="title">Perturbation variability does not influence implicit sensorimotor adaptation</span><br>
+      PLOS Computational Biology<br>
+      <a class="link" href="#" target="_blank">View publication</a>
+    </li>
+    <li>
+      <span class="year">2024</span> – T Wang, G Avraham, JS Tsay, T Thummala, RB Ivry<br>
+      <span class="title">Advanced feedback enhances sensorimotor adaptation</span><br>
+      Current Biology<br>
+      <a class="link" href="#" target="_blank">View publication</a>
+    </li>
+    <li>
+      <span class="year">2023</span> – S Chen, T Wang, Y Bao<br>
+      <span class="title">Serial dependence in timing at the perceptual level being modulated by working memory</span><br>
+      PsyCh Journal<br>
+      <a class="link" href="#" target="_blank">View publication</a>
+    </li>
+    <li>
+      <span class="year">2023</span> – NM van Mastrigt, JS Tsay, T Wang, G Avraham, SJ Abram, K van der Kooij, JBJ Smeets, RB Ivry<br>
+      <span class="title">Implicit reward-based motor learning</span><br>
+      Experimental Brain Research<br>
+      <a class="link" href="#" target="_blank">View publication</a>
+    </li>
+    <li>
+      <span class="year">2023</span> – T Wang, Y Luo, RB Ivry, JS Tsay, E Pöppel, Y Bao<br>
+      <span class="title">A unitary mechanism underlies adaptation to both local and global environmental statistics in time perception</span><br>
+      PLOS Computational Biology<br>
+      <a class="link" href="#" target="_blank">View publication</a>
+    </li>
+    <li>
+      <span class="year">2022</span> – JS Tsay, T Najafi, L Schuck, T Wang, RB Ivry<br>
+      <span class="title">Implicit sensorimotor adaptation is preserved in Parkinson’s disease</span><br>
+      Brain Communications<br>
+      <a class="link" href="#" target="_blank">View publication</a>
+    </li>
+    <li>
+      <span class="year">2021</span> – T Wang, JA Taylor<br>
+      <span class="title">Implicit adaptation to mirror reversal is in the correct coordinate system but the wrong direction</span><br>
+      Journal of Neurophysiology<br>
+      <a class="link" href="#" target="_blank">View publication</a>
+    </li>
+    <li>
+      <span class="year">2021</span> – T Wang, Z Zhu, I Kana, Y Yu, H He, K Wei<br>
+      <span class="title">Accuracy of hand localization is subject-specific and improved without performance feedback</span><br>
+      Scientific Reports<br>
+      <a class="link" href="#" target="_blank">View publication</a>
+    </li>
+  </ul>
+</body>
 
 
 
