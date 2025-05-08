@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in the Department of Psychology at UC Berkeley, supervised by Rich Ivry. I am broadly interested in the flexibility of human learning. I build cognitive and neural models to understand how the brain supports multiple learning processes and how these systems interact to enable adaptive behavior. My early PhD work focused on how the sensorimotor system operates under uncertainty from various sources to support efficient adaptation. I am now extending this work to investigate how we plan movements and make decisions when interacting with other agents under uncertainty. I am also interested in the function of the cerebellum, a brain region historically associated with motor control and learning. I develop models to explore the cerebellum’s role in broader cognitive domains such as timing, intuitive physics, and theory of mind. Here you can find a summary of my current projects.
+I am a PhD candidate in the Department of Psychology at UC Berkeley, supervised by Rich Ivry. I am broadly interested in the flexibility of human learning. I build cognitive and neural models to understand how the brain supports multiple learning processes and how these systems interact to enable adaptive behavior. My early PhD work focused on how the sensorimotor system operates under multiple sources of uncertainties to support efficient adaptation. I am now extending this work to investigate how we plan movements and make decisions when interacting with other agents under uncertainty. I am also interested in the function of the cerebellum, a brain region historically associated with motor control and learning. I develop models to explore the cerebellum’s role in broader cognitive domains such as timing, intuitive physics, and theory of mind. Here you can find a summary of my current projects.
 
 ---
 
@@ -14,7 +14,7 @@ I am a PhD candidate in the Department of Psychology at UC Berkeley, supervised 
 
 Our motor system must deal with enormous amounts of noise and uncertainty. For example, our visual and proprioceptive inputs are imperfect, and both the internal state of the body and the external environment are constantly changing. It is impressive that the motor system can still perform accurate movements and generalize skills despite these uncertainties—something that remains a major challenge for robotic systems.
 
-We examine how the motor system adapts to uncertainty across two distinct systems: the implicit recalibration system and the action selection system. The recalibration system corrects for small errors in an automatic way and [does not require attentional resources](https://pubmed.ncbi.nlm.nih.gov/39282258/), whereas the action selection system is more flexible and can adjust behavior to meet specific task demands.
+We examine how the motor system adapts to uncertainty across two distinct systems: the implicit recalibration system and the action selection system. The recalibration system corrects for small errors in an automatic way and [does not require attentional resources](https://pubmed.ncbi.nlm.nih.gov/39282258/). In contrast, the action selection system is more flexible and can adjust behavior to meet specific task demands.
 
 <img src="/images/cpc.png" alt="Description" align="left" width="500">
 
