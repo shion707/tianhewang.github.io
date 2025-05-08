@@ -25,7 +25,8 @@ author:
   avatar           : "profile.png"
   name             : "Tianhe Wang"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate at the University of California, Berkeley         tianhewang at berkeley.edu"
+  bio              : "PhD Candidate at the University of California, Berkeley "
+  bio2             : "Contact: tianhewang at berkeley.edu "
   location         : #"Earth"
   employer         : #"Red Brick University"
   uri              : # URL
