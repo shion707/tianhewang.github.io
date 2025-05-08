@@ -8,11 +8,14 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Publications"
-    url: /publications/
+
 
   - title: "Projects"
     url: https://shion707.github.io/tianhewang.github.io/    
+    
+  - title: "Publications"
+    url: /publications/
+
 
   # - title: "Teaching"
   #   url: /teaching/    
