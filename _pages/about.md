@@ -28,10 +28,13 @@ Project 2: Target-specific and context-dependent biases in movement reveal funda
 ======
 Biases in movement offer a window to probe the underlying control mechanisms in motor control. Here we focus on biases at three time scales: 1. stable target-specific bias; 2. bias induced by a prior distribution; 3. bias induced by the last movement. We provide novel models to explain biases at all three levels.
 
+<img src="/images/bias.png" alt="Description" align="left" width="600"> 
+
 From the [target-specific bias](https://elifesciences.org/reviewed-preprints/100715), we showed that its pattern largely reflects [a mismatch](https://www.nature.com/articles/s41598-020-76220-0) between the proprioceptive space that encodes the hand position and the visual space. Modeling results suggest that participants perceived the target in the visual space and transferred it into a proprioceptive space, and they encoded the motor plan. 
 
 Prior distribution can also induce a central tendency in the reaching. However, contradict to the prevailing belief, we found this bias to be largely non-Bayesian. In particular, while the motor bias is modulated by the specific prior distribution, the motor variance does not. Current work is focusing on understanding the nature of this bias.
 
+<img src="/images/bias2.png" alt="Description" align="right" width="600"> 
 We have also identified a novel [trial-by-trial bias](https://pubmed.ncbi.nlm.nih.gov/39416082/) in reaching, where the current movement is biased away from the previous movement. This bias pattern and how it is modulated across various situations suggest an efficient coding mechanism for motor planning. We are now examining how the interaction between the trial-by-trial repulsive bias and prior-induced central tendency reveals how the motor system adapts to the statistical properties of the motor goals. 
 
 
