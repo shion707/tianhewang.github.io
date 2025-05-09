@@ -75,8 +75,15 @@ Additionally, learning in this system does not require movement execution. We fo
 
 ## Project 5: The role of the cerebellum in cognition
 
+<img src="/images/timing.png" alt="Description" align="right" width="400">
+
 While traditionally viewed as a motor structure, the cerebellum is increasingly implicated in cognitive domains such as reward learning and language. However, how the cerebellum contributes to these functions is still unclear.
 
-I conduct neurophysiological and behavioral studies with cerebellar ataxia patients and healthy controls to explore cerebellar involvement in [timing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011116), intuitive physics, and theory of mind.
+To address the role of the cerebellum in multiple domains, I conduct neurophysiological and behavioral studies with cerebellar ataxia patients and healthy controls to explore cerebellar involvement in [timing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011116), intuitive physics, social perception, and theory of mind. In particular, I focus on the following questions:
+1. Timing has been considered a core cerebellar function. We focus on whether the cerebellum encodes the likelihood, the prior, or both in time perception.
+2. A domain-general hypothesis of the cerebellum is that it is involved in continuous operation (as in motor control and timing). I examine this idea using the intuitive physics tasks, which require mental simulations in a continuous space.
+3. While clinical work has suggested the critical role of the cerebellum in social perception, it is less clear what specific aspect of social function has been impaired in patients. We expanded on previous work to examine how cerebellar patients are impaired in emotion perception, face perception, and the theory of mind tasks.
+
+
 
 ---
