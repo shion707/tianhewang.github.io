@@ -14,7 +14,7 @@ I am a PhD candidate in the Department of Psychology at UC Berkeley, supervised 
 
 Our motor system must deal with enormous amounts of noise and uncertainty. For example, our visual and proprioceptive inputs are imperfect, and both the internal state of the body and the external environment are constantly changing. It is impressive that the motor system can still perform accurate movements and generalize skills despite these uncertainties—something that remains a major challenge for robotic systems.
 
-We examine how the motor system adapts to uncertainty across two distinct systems: the implicit recalibration system and the action selection system. The recalibration system corrects for small errors in an automatic way and [does not require attentional resources](https://pubmed.ncbi.nlm.nih.gov/39282258/). In contrast, the action selection system is more flexible and can adjust behavior to meet specific task demands.
+We examine how the motor system adapts to uncertainty across two distinct systems: the implicit recalibration system and the action selection system. The recalibration system corrects for small errors in an automatic way and <a href="https://pubmed.ncbi.nlm.nih.gov/39282258/" target="_blank" rel="noopener noreferrer">does not require attentional resources</a>.. In contrast, the action selection system is more flexible and can adjust behavior to meet specific task demands.
 
 <img src="/images/cpc.png" alt="Description" align="left" width="500">
 
