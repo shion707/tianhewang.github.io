@@ -16,7 +16,7 @@ Our motor system must deal with enormous amounts of noise and uncertainty. For e
 
 We examine how the motor system adapts to uncertainty across two distinct systems: the implicit recalibration system and the action selection system. The recalibration system corrects for small errors in an automatic way and <a href="https://pubmed.ncbi.nlm.nih.gov/39282258/" target="_blank" rel="noopener noreferrer">does not require attentional resources</a>. In contrast, the action selection system is more flexible and can adjust behavior to meet specific task demands.
 
-<img src="/images/cpc.png" alt="Description" align="left" width="500">
+<img src="/images/cpc.png" alt="Description" align="left" width="200">
 
 Our recent work suggests that implicit recalibration is <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011951" target="_blank" rel="noopener noreferrer">insensitive to state noise</a>. However, this system shows unique effects in response to contextual uncertainty. For example, learning is faster but less durable when the environment is volatile; reversal learning is slower than original learning; and relearning is slower, rather than faster, when re-exposed to the same perturbation. We proposed a <a href="https://pubmed.ncbi.nlm.nih.gov/37461557/" target="_blank" rel="noopener noreferrer">Cerebellar Population Coding model</a> that offers a unified explanation for these contextual effects without invoking contextual inference. The model is a simple two-layer network corresponding to the cerebellar cortex and deep cerebellar nuclei, and contextual effects emerge from the population activation within the model.
 
@@ -35,13 +35,13 @@ Biases in movement offer a window into the control mechanisms underlying motor b
 
 We have developed novel models to explain the origins of these biases.
 
-<img src="/images/bias.png" alt="Description" align="left" width="600">
+<img src="/images/bias.png" alt="Description" align="left" width="400">
 
 Our work on <a href="https://elifesciences.org/reviewed-preprints/100715" target="_blank" rel="noopener noreferrer">target-specific bias</a> shows that the pattern reflects a <a href="https://www.nature.com/articles/s41598-020-76220-0" target="_blank" rel="noopener noreferrer">mismatch</a> between the proprioceptive space that encodes hand position and the visual space used for target localization. Modeling suggests that participants perceive the target visually, translate it into proprioceptive space, and then generate a motor plan.
 
 Prior distributions also induce central tendency effects in reaching. However, contrary to prevailing beliefs, we find this bias to be largely non-Bayesian. While the motor bias is modulated by the prior, motor variance is not. Ongoing work is focused on understanding the computational basis of this discrepancy.
 
-<img src="/images/bias2.png" alt="Description" align="right" width="500">
+<img src="/images/bias2.png" alt="Description" align="right" width="300">
 
 We also identified a novel <a href="https://pubmed.ncbi.nlm.nih.gov/39416082/" target="_blank" rel="noopener noreferrer">trial-by-trial bias</a> in which the current movement is biased *away* from the previous one. The pattern and modulation of this repulsion effect across contexts support an efficient coding mechanism in motor planning. We are now investigating how this repulsive bias interacts with prior-induced central tendency to reveal how the motor system adapts to statistical structure.
 
