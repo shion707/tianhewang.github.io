@@ -10,7 +10,7 @@ I am a PhD candidate in the Department of Psychology at UC Berkeley, supervised 
 
 ---
 
-## Project 1: How the brain adapts to uncertainties in the environment
+## Theme 1: How the brain adapts to uncertainties in the environment
 
 Our motor system must deal with enormous amounts of noise and uncertainty. For example, our visual and proprioceptive inputs are imperfect, and both the internal state of the body and the external environment are constantly changing. It is impressive that the motor system can still perform accurate movements and generalize skills despite these uncertainties—something that remains a major challenge for robotic systems.
 
@@ -26,7 +26,7 @@ Beyond the physical world, another key source of uncertainty comes from other ag
 
 ---
 
-## Project 2: Target-specific and context-dependent movement biases reveal fundamental computations in motor control
+## Theme 2: Target-specific and context-dependent movement biases reveal fundamental computations in motor control
 
 Biases in movement offer a window into the control mechanisms underlying motor behavior. We focus on biases across three time scales:  
 1. Stable target-specific biases  
@@ -47,7 +47,7 @@ We also identified a novel <a href="https://pubmed.ncbi.nlm.nih.gov/39416082/" t
 
 ---
 
-## Project 3: How we learn new motor skills
+## Theme 3: How we learn new motor skills
 
 The primary distinction in motor learning lies between adaptation—adjusting a well-trained behavior to compensate for perturbations—and skill learning, which involves creating a new action-outcome mapping from scratch. Most research has focused on the former; little is known about the latter, especially at a computational level.
 
@@ -63,7 +63,7 @@ We are building neural network models to investigate the distinct roles of the m
 
 ---
 
-## Project 4: Characterize the properties of the implicit sensorimotor recalibration system
+## Theme 4: Characterize the properties of the implicit sensorimotor recalibration system
 
 <img src="/images/feedbacktiming.png" alt="Description" align="left" width="400">
 
@@ -73,7 +73,7 @@ Additionally, learning in this system does not require movement execution. We fo
 
 ---
 
-## Project 5: The role of the cerebellum in cognition
+## Theme 5: The role of the cerebellum in cognition
 
 <img src="/images/timing.png" alt="Description" align="right" width="400">
 
