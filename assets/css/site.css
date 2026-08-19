@@ -4,9 +4,9 @@
    ========================================================================== */
 
 :root {
-  --ink:          #111315;
-  --ink-soft:     #3f464c;
-  --ink-muted:    #6b747c;
+  --ink:          #000000;
+  --ink-soft:     #222222;
+  --ink-muted:    #666666;
   --rule:         #e2e6e9;
   --accent:       #d7edfb;   /* pale sky blue — the single accent */
   --accent-deep:  #8cc7e8;
@@ -28,8 +28,8 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font);
-  font-size: 17px;
-  line-height: 1.65;
+  font-size: 18px;
+  line-height: 1.5;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -80,7 +80,7 @@ a { color: inherit; text-decoration: none; }
 
 .brand {
   font-size: 1.6rem;
-  letter-spacing: -0.015em;
+  letter-spacing: normal;
   white-space: nowrap;
 }
 .brand strong { font-weight: 700; }
@@ -94,7 +94,7 @@ a { color: inherit; text-decoration: none; }
 
 .nav a {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--ink-soft);
   padding: .35rem 0;
   border-bottom: 2px solid transparent;
@@ -117,31 +117,32 @@ a { color: inherit; text-decoration: none; }
 
 .hero__grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr);
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   align-items: center;
   gap: clamp(2rem, 6vw, 5rem);
 }
 
 .hero__eyebrow {
-  font-size: 1.0625rem;
+  font-size: 1.25rem;
   font-weight: 500;
-  letter-spacing: 0.005em;
-  margin: 0 0 .35rem;
+  line-height: 1.5;
+  letter-spacing: normal;
+  margin: 0 0 .25rem;
   color: var(--ink);
 }
 
 .hero__title {
-  font-size: clamp(2.9rem, 7.2vw, 5.4rem);
+  font-size: clamp(2.9rem, 7vw, 5.5rem);
   font-weight: 300;
-  line-height: 0.98;
-  letter-spacing: -0.028em;
+  line-height: 1.0;
+  letter-spacing: normal;
   margin: 0 0 1.6rem;
 }
 
 .hero__lede {
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   color: var(--ink-soft);
-  max-width: 34em;
+  max-width: 30em;
   margin: 0;
 }
 
@@ -183,10 +184,10 @@ a { color: inherit; text-decoration: none; }
 .section--rule { border-top: 1px solid var(--rule); }
 
 .section__title {
-  font-size: clamp(2.25rem, 5vw, 3.9rem);
+  font-size: clamp(2.25rem, 4.6vw, 3.75rem);
   font-weight: 300;
-  line-height: 1.04;
-  letter-spacing: -0.022em;
+  line-height: 1.1;
+  letter-spacing: normal;
   margin: 0 0 1.1rem;
 }
 
@@ -259,10 +260,10 @@ a { color: inherit; text-decoration: none; }
 .card .chev { align-self: flex-start; }
 
 .card__title {
-  font-size: clamp(1.9rem, 3.4vw, 2.9rem);
+  font-size: clamp(1.9rem, 3.4vw, 2.75rem);
   font-weight: 300;
-  line-height: 1.06;
-  letter-spacing: -0.02em;
+  line-height: 1.1;
+  letter-spacing: normal;
   margin: 0 0 .75rem;
 }
 .card p { margin: 0; color: var(--ink-soft); font-size: 1rem; }
@@ -273,22 +274,22 @@ a { color: inherit; text-decoration: none; }
 
 .page-head { padding-block: clamp(2.5rem, 6vw, 4.5rem) 0; }
 .page-head__title {
-  font-size: clamp(2.6rem, 6vw, 4.4rem);
+  font-size: clamp(2.5rem, 5.4vw, 4rem);
   font-weight: 300;
-  line-height: 1.02;
-  letter-spacing: -0.025em;
+  line-height: 1.1;
+  letter-spacing: normal;
   margin: 0 0 .75rem;
 }
-.page-head__lede { color: var(--ink-soft); max-width: 44em; margin: 0; font-size: 1.0625rem; }
+.page-head__lede { color: var(--ink-soft); max-width: 40em; margin: 0; font-size: 1.125rem; }
 .page-head__lede a { color: var(--ink); border-bottom: 1px solid var(--accent-deep); }
 .page-head__lede a:hover { background: var(--accent); }
 
 .prose { padding-block: clamp(2.5rem, 6vw, 4.5rem); }
 .prose h2 {
-  font-size: clamp(1.9rem, 3.6vw, 2.8rem);
+  font-size: clamp(1.9rem, 3.4vw, 2.75rem);
   font-weight: 300;
   line-height: 1.1;
-  letter-spacing: -0.02em;
+  letter-spacing: normal;
   margin: 3.5rem 0 1.1rem;
 }
 .prose h2:first-child { margin-top: 0; }
@@ -318,10 +319,10 @@ a { color: inherit; text-decoration: none; }
   margin: 0 0 .6rem;
 }
 .theme__title {
-  font-size: clamp(1.75rem, 3.4vw, 2.6rem);
+  font-size: clamp(1.75rem, 3.2vw, 2.5rem);
   font-weight: 300;
   line-height: 1.1;
-  letter-spacing: -0.02em;
+  letter-spacing: normal;
   margin: 0 0 1.25rem;
 }
 .theme__body { color: var(--ink-soft); }
@@ -344,7 +345,7 @@ a { color: inherit; text-decoration: none; }
 .pubs h2 {
   font-size: clamp(1.5rem, 2.6vw, 2rem);
   font-weight: 300;
-  letter-spacing: -0.015em;
+  letter-spacing: normal;
   margin: 3rem 0 1.25rem;
   padding-bottom: .6rem;
   border-bottom: 1px solid var(--rule);
