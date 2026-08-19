@@ -12,10 +12,10 @@ site_theme               : "default"
 title                    : "Tianhe's home"
 title_separator          : "-"
 name                     : &name "Tianhe Wang"
-description              : &description "personal description"
-url                      : https://shion707.github.io/tianhewang.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+description              : &description "Tianhe Wang — PhD candidate in Psychology at UC Berkeley. Cognitive and neural models of human motor learning, sensorimotor adaptation, and cerebellar function."
+url                      : "https://tianhewang.net" # custom domain, set via the CNAME file
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://shion707.github.io/tianhewang.github.io/"
+repository               : "shion707/tianhewang.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -213,80 +213,20 @@ kramdown:
   enable_coderay: false
 
 
-# These settings control the types of collections used by the template
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+# Collections
+# All four template collections (publications, talks, teaching, portfolio) were removed:
+# they only ever held unedited Academic Pages placeholder content, which was being published
+# and indexed. Publications are maintained by hand in _pages/publications.html.
 
-
-# These settings control how pages and collections are included in the site
+# These settings control how pages are rendered
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+      layout: base
 
-
-# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
