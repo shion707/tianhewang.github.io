@@ -1,14 +1,10 @@
 # Header navigation. Order here is the order shown in the site header.
-# "Research" points at the homepage on purpose: the homepage IS the research
-# overview, so a second page would duplicate it and split the search ranking.
+# The brand (name) links to "/", the personal page.
 
 main:
 
   - title: "Research"
-    url: /
-
-  - title: "Project"
-    url: /project/
+    url: /research/
 
   - title: "Publications"
     url: /publications/
