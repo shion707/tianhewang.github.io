@@ -63,11 +63,6 @@ redirect_from:
             experiments, neuropsychological testing in neurological cohorts such as SCA,
             computational modeling of both cognition and neural circuits.
           </p>
-          <p>
-            I also work on the cerebellum, a structure long tied to motor control, and its role in
-            broader cognitive domains: timing, intuitive physics, and theory of mind. This work
-            combines modeling with neurophysiological and behavioral studies in cerebellar ataxia patients.
-          </p>
         </div>
       </div>
 
@@ -75,56 +70,32 @@ redirect_from:
   </div>
 </section>
 
-<!-- Theme 1 -->
-<section class="theme">
+<!-- Project 01 -->
+<section class="project">
   <div class="wrap">
     <div class="split">
 
-      <figure class="split__figure theme__figure">
-        <img src="{{ '/images/cpc.png' | relative_url }}" alt="Cerebellar population coding model: parallel fiber inputs and error direction tuning">
+      <figure class="split__figure split__figure--art project__figure">
+        <img src="{{ '/images/project-actions.webp' | relative_url }}"
+             alt="Line drawing of a dancer mid-movement inside a pale blue circle"
+             width="840" height="840">
       </figure>
 
       <div>
-        <p class="theme__num">Theme 01</p>
-        <h2 class="theme__title">How the brain adapts to uncertainties in the environment</h2>
-        <div class="theme__body">
+        <p class="project__num">Project 01</p>
+        <h2 class="project__title">How do we learn from our own actions?</h2>
+        <div class="project__body">
           <p>
-            Our motor system must deal with enormous amounts of noise and uncertainty. Our visual and
-            proprioceptive inputs are imperfect, and both the internal state of the body and the
-            external environment are constantly changing. It is impressive that the motor system can
-            still perform accurate movements and generalize skills despite these uncertainties —
-            something that remains a major challenge for robotic systems.
-          </p>
-          <p>
-            We examine how the motor system adapts to uncertainty across two distinct systems: the
-            implicit recalibration system and the action selection system. The recalibration system
-            corrects for small errors automatically and
-            <a href="https://pubmed.ncbi.nlm.nih.gov/39282258/" target="_blank" rel="noopener noreferrer">does not require attentional resources</a>.
-            In contrast, the action selection system is more flexible and can adjust behavior to meet
-            specific task demands.
-          </p>
-          <p>
-            Our recent work suggests that implicit recalibration is
-            <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011951" target="_blank" rel="noopener noreferrer">insensitive to state noise</a>,
-            yet shows unique effects in response to contextual uncertainty: learning is faster but less
-            durable when the environment is volatile, reversal learning is slower than original
-            learning, and relearning is slower rather than faster on re-exposure. We proposed a
-            <a href="https://pubmed.ncbi.nlm.nih.gov/37461557/" target="_blank" rel="noopener noreferrer">Cerebellar Population Coding (CPC) model</a>
-            that explains these contextual effects without invoking contextual inference — a simple
-            two-layer network corresponding to cerebellar cortex and deep cerebellar nuclei, in which
-            contextual effects emerge from population activation.
-          </p>
-          <p>
-            To investigate action selection under uncertainty, we developed a novel
-            <a href="{{ '/files/RLDM2025.pdf' | relative_url }}">air-hockey game</a> requiring multi-dimensional motor control
-            and compensation for time-varying wind. The action selection system showed near-optimal
-            modulation, where state noise and volatility had opposite effects on learning rate.
-            Participants performed significantly worse on a non-motor version of the same task.
-          </p>
-          <p>
-            Beyond the physical world, another key source of uncertainty comes from other agents.
-            Incorporating it requires theory of mind. My current studies focus on how we make decisions
-            in the face of uncertain intentions from other agents.
+            Most theories of motor learning are built on feedback: reward or error. We improve by
+            correcting our mistakes and by reinforcing what worked. Both require knowing how the
+            movement turned out. We propose a third way of learning, based on the pattern of the
+            actions themselves, which needs no feedback at all. Our actions are far from random.
+            Some movements are made far more often than others, the movements one situation calls
+            for differ from those in the next, and co-occurring actions form a chunk that can be
+            reused as a unit later on. This statistical information is what lets the system build
+            a structured space of actions and predict what the next movement will require. My
+            research program builds a statistical learning framework for the motor system, asking
+            how these regularities are learned and how they shape the way we move.
           </p>
         </div>
       </div>
@@ -133,46 +104,33 @@ redirect_from:
   </div>
 </section>
 
-<!-- Theme 2 -->
-<section class="theme">
+<!-- Project 02 -->
+<section class="project">
   <div class="wrap">
     <div class="split split--flip">
 
-      <figure class="split__figure theme__figure">
-        <img src="{{ '/images/bias.png' | relative_url }}" alt="Visuo-proprioceptive mismatch, motor bias, and perceptual model panels">
+      <figure class="split__figure split__figure--art project__figure">
+        <img src="{{ '/images/project-cerebellum.webp' | relative_url }}"
+             alt="Line drawing of a sagittal section of the cerebellum inside a pale blue circle"
+             width="840" height="840">
       </figure>
 
       <div>
-        <p class="theme__num">Theme 02</p>
-        <h2 class="theme__title">Movement biases reveal fundamental computations in motor control</h2>
-        <div class="theme__body">
+        <p class="project__num">Project 02</p>
+        <h2 class="project__title">How the cerebellum supports flexible movements</h2>
+        <div class="project__body">
           <p>
-            Biases in movement offer a window into the control mechanisms underlying motor behavior.
-            We focus on biases across three time scales: stable target-specific biases, biases induced
-            by prior distributions, and trial-by-trial biases from recent movements. We have developed
-            novel models to explain the origins of each.
+            Our motor system must deal with enormous amounts of noise and uncertainty. Our visual
+            and proprioceptive inputs are imperfect, and both the internal state of the body and
+            the external environment are constantly changing. Even so, the system tracks its state
+            reliably and keeps producing accurate movements.
           </p>
           <p>
-            Our work on
-            <a href="https://elifesciences.org/reviewed-preprints/100715" target="_blank" rel="noopener noreferrer">target-specific bias</a>
-            shows that the pattern reflects a
-            <a href="https://www.nature.com/articles/s41598-020-76220-0" target="_blank" rel="noopener noreferrer">mismatch</a>
-            between the proprioceptive space that encodes hand position and the visual space used for
-            target localization. Modeling suggests participants perceive the target visually, translate
-            it into proprioceptive space, and then generate a motor plan.
-          </p>
-          <p>
-            Prior distributions also induce central tendency effects in reaching. Contrary to prevailing
-            beliefs, we find this bias to be largely non-Bayesian: while motor bias is modulated by the
-            prior, motor variance is not. Ongoing work focuses on the computational basis of this
-            discrepancy.
-          </p>
-          <p>
-            We also identified a novel
-            <a href="https://pubmed.ncbi.nlm.nih.gov/39416082/" target="_blank" rel="noopener noreferrer">trial-by-trial bias</a>
-            in which the current movement is biased <em>away</em> from the previous one. The pattern and
-            modulation of this repulsion effect across contexts support an efficient coding mechanism in
-            motor planning. We are now investigating how it interacts with prior-induced central tendency.
+            The cerebellum is considered one of the key regions involved in inferring the state of
+            the body and the environment, in both temporal and spatial dimensions. I examine this
+            computation starting from models at the circuit level, to reveal the mechanisms
+            underlying these inference processes, and we test those models with neuropsychological
+            studies in patients with cerebellar degeneration.
           </p>
         </div>
       </div>
@@ -181,106 +139,33 @@ redirect_from:
   </div>
 </section>
 
-<!-- Theme 3 (no figure — full width prose) -->
-<section class="theme">
-  <div class="wrap">
-    <p class="theme__num">Theme 03</p>
-    <h2 class="theme__title">How we learn new motor skills</h2>
-    <div class="theme__body" style="max-width: 60em;">
-      <p>
-        The primary distinction in motor learning lies between adaptation — adjusting a well-trained
-        behavior to compensate for perturbations — and skill learning, which involves creating a new
-        action–outcome mapping from scratch. Most research has focused on the former; little is known
-        about the latter, especially at a computational level.
-      </p>
-      <p>
-        We revisited a longstanding paradox: patients with retrograde amnesia (e.g.
-        <a href="https://en.wikipedia.org/wiki/Henry_Molaison" target="_blank" rel="noopener noreferrer">HM</a>)
-        can learn mirror-reversed tasks, yet
-        <a href="https://journals.physiology.org/doi/pdf/10.1152/jn.00304.2021" target="_blank" rel="noopener noreferrer">recent studies show</a>
-        the implicit system is surprisingly rigid, even after extended training.
-      </p>
-      <p>
-        In a recent study we trained participants for a month on novel sensorimotor maps and observed
-        results that challenge conventional wisdom:
-      </p>
-      <ol>
-        <li>Implicit adaptation can flip to match new mappings</li>
-        <li>There is little interference between old and new maps</li>
-        <li>Simple center-out reaching is more effective than complex "skill-like" tasks for inducing adaptation</li>
-        <li>Mirror-reversal and rotation tasks produced similar changes in implicit adaptation</li>
-      </ol>
-      <p>
-        We are building neural network models to investigate the distinct roles of motor cortex and
-        cerebellum in these processes.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- Theme 4 -->
-<section class="theme">
+<!-- Project 03 -->
+<section class="project">
   <div class="wrap">
     <div class="split">
 
-      <figure class="split__figure theme__figure">
-        <img src="{{ '/images/feedbacktiming.png' | relative_url }}" alt="Feedback timing relative to motor planning and movement">
+      <figure class="split__figure split__figure--art project__figure">
+        <img src="{{ '/images/project-cognition.webp' | relative_url }}"
+             alt="Line drawing of two figures and a thought bubble containing a third, inside a pale blue circle"
+             width="840" height="840">
       </figure>
 
       <div>
-        <p class="theme__num">Theme 04</p>
-        <h2 class="theme__title">Properties of the implicit sensorimotor recalibration system</h2>
-        <div class="theme__body">
+        <p class="project__num">Project 03</p>
+        <h2 class="project__title">How the cerebellum involved in cognition</h2>
+        <div class="project__body">
           <p>
-            The implicit recalibration system exhibits features unlike any other learning system. Our
-            <a href="https://pubmed.ncbi.nlm.nih.gov/39282258/" target="_blank" rel="noopener noreferrer">recent study</a>
-            showed that implicit recalibration does <strong>not</strong> consume attentional resources.
-            Whether participants paid attention to the task, the feedback, or neither had no effect on
-            learning rate — revealing the system's surprising robustness.
+            While traditionally viewed as a motor structure, the cerebellum is increasingly
+            implicated in cognitive domains such as reward learning and language. How it
+            contributes to these functions is still unclear.
           </p>
           <p>
-            Learning in this system also does not require movement execution. We found that learning is
-            maximized when visual feedback is
-            <a href="https://www.sciencedirect.com/science/article/pii/S0960982224001398" target="_blank" rel="noopener noreferrer">temporally aligned with motor planning</a>
-            rather than with actual movement. Current work uses computational modeling to identify the
-            driving forces behind implicit recalibration, including the role of multisensory integration.
+            I conduct neurophysiological and behavioral studies with cerebellar ataxia patients
+            and healthy controls to explore cerebellar involvement in <a
+            href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011116"
+            target="_blank" rel="noopener noreferrer">timing</a>, intuitive physics, social
+            perception, and theory of mind.
           </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- Theme 5 -->
-<section class="theme">
-  <div class="wrap">
-    <div class="split split--flip">
-
-      <figure class="split__figure theme__figure">
-        <img src="{{ '/images/timing.png' | relative_url }}" alt="Cerebellar contributions to timing">
-      </figure>
-
-      <div>
-        <p class="theme__num">Theme 05</p>
-        <h2 class="theme__title">The role of the cerebellum in cognition</h2>
-        <div class="theme__body">
-          <p>
-            While traditionally viewed as a motor structure, the cerebellum is increasingly implicated in
-            cognitive domains such as reward learning and language. How it contributes to these functions
-            is still unclear.
-          </p>
-          <p>
-            I conduct neurophysiological and behavioral studies with cerebellar ataxia patients and
-            healthy controls to explore cerebellar involvement in
-            <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011116" target="_blank" rel="noopener noreferrer">timing</a>,
-            intuitive physics, social perception, and theory of mind. In particular:
-          </p>
-          <ol>
-            <li>Timing has been considered a core cerebellar function. We focus on whether the cerebellum encodes the likelihood, the prior, or both in time perception.</li>
-            <li>A domain-general hypothesis is that the cerebellum is involved in continuous operation, as in motor control and timing. I examine this using intuitive physics tasks, which require mental simulation in a continuous space.</li>
-            <li>While clinical work suggests a critical cerebellar role in social perception, it is less clear which specific aspect is impaired. We examine how cerebellar patients are impaired in emotion perception, face perception, and theory of mind tasks.</li>
-          </ol>
         </div>
       </div>
 
