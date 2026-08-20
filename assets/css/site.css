@@ -320,6 +320,8 @@ a { color: inherit; text-decoration: none; }
    Chevron button — the reference's black square affordance
    ========================================================================== */
 
+/* Card grid and chevron button: no page carries these while the homepage is
+   bio-only, but they are kept so the three link cards can be dropped back in. */
 .chev {
   display: inline-grid;
   place-items: center;
