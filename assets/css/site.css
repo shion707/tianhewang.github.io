@@ -346,6 +346,11 @@ a { color: inherit; text-decoration: none; }
 }
 .card p { margin: 0; color: var(--ink-soft); font-size: 1rem; }
 
+/* Each question is its own line; without separation the wrapped lines run
+   together and read as one paragraph. */
+.card__questions span { display: block; }
+.card__questions span + span { margin-top: .6rem; }
+
 /* ==========================================================================
    Long-form prose (research page, publications)
    ========================================================================== */
