@@ -204,7 +204,7 @@ a { color: inherit; text-decoration: none; }
 
 .bio__photo img {
   width: 256px;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
 }
