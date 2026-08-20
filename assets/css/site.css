@@ -154,7 +154,8 @@ a { color: inherit; text-decoration: none; }
 .hero__meta a { border-bottom: 1px solid var(--accent-deep); }
 .hero__meta a:hover { color: var(--ink); }
 
-/* Portrait in an accent circle — mirrors the reference site's blue blob */
+/* Portrait variant: photo cropped into an accent circle. Unused while the hero
+   carries illustration, but kept so a photo can be dropped back in. */
 .hero__figure {
   position: relative;
   display: grid;
@@ -174,6 +175,15 @@ a { color: inherit; text-decoration: none; }
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
+}
+
+/* Illustration variant: the artwork supplies its own accent circle, so it needs
+   no blob behind it. multiply drops the near-white plate into the page. */
+.hero__art { display: grid; place-items: center; }
+.hero__art img {
+  width: 100%;
+  height: auto;
+  mix-blend-mode: multiply;
 }
 
 /* ==========================================================================
@@ -223,6 +233,14 @@ a { color: inherit; text-decoration: none; }
   width: auto;
   mix-blend-mode: multiply;
 }
+
+/* Illustration variant: artwork that already sits on the accent colour needs no
+   tinted panel — it would read as a box around the drawing. */
+.split__figure--art {
+  background: none;
+  padding: 0;
+}
+.split__figure--art img { max-height: 460px; }
 
 /* ==========================================================================
    Chevron button — the reference's black square affordance
