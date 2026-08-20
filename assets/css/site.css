@@ -215,14 +215,15 @@ a { color: inherit; text-decoration: none; }
 
 /* ==========================================================================
    Bio block — geometry from the reference's team page: portrait left,
-   name at 24px/500, intro at 16px/24, underlined text links.
+   intro at 16px/24, underlined text links. The name is not shown here; the
+   header already carries it.
    ========================================================================== */
 
 .bio {
   display: grid;
   grid-template-columns: 256px minmax(0, 1fr);
   column-gap: 80px;
-  align-items: start;
+  align-items: center;
 }
 
 .bio__photo img {
