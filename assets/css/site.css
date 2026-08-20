@@ -318,6 +318,9 @@ a { color: inherit; text-decoration: none; }
   row-gap: 64px;
 }
 .split--flip .split__figure { order: 2; }
+/* Reordering alone would leave the prose in the narrow column on flipped rows;
+   swap the ratio too so the text keeps the wider side on both alternations. */
+.split--flip { grid-template-columns: minmax(0, 5fr) minmax(0, 4fr); }
 
 /* Figures are white-background scientific panels, so they sit on a soft tinted
    card rather than the reference site's circle — a circle behind an opaque
@@ -435,11 +438,11 @@ a { color: inherit; text-decoration: none; }
 .prose img { margin: 1.5rem 0; }
 .prose strong { font-weight: 500; color: var(--ink); }
 
-/* Research theme blocks */
+/* Research project blocks */
 
-.theme { padding-block: clamp(2.5rem, 6vw, 5rem); }
-.theme + .theme { border-top: 1px solid var(--rule); }
-.theme__num {
+.project { padding-block: clamp(2.5rem, 6vw, 5rem); }
+.project + .project { border-top: 1px solid var(--rule); }
+.project__num {
   font-size: .8125rem;
   font-weight: 500;
   letter-spacing: .14em;
@@ -447,25 +450,25 @@ a { color: inherit; text-decoration: none; }
   color: var(--ink-muted);
   margin: 0 0 .6rem;
 }
-.theme__title {
+.project__title {
   font-size: clamp(1.75rem, 3.2vw, 2.5rem);
   font-weight: 300;
   line-height: 1.1;
   letter-spacing: normal;
   margin: 0 0 1.25rem;
 }
-.theme__body { color: var(--ink-soft); }
-.theme__body p { margin: 0 0 1.1rem; }
-.theme__body p:last-child { margin-bottom: 0; }
-.theme__body a { border-bottom: 1px solid var(--accent-deep); }
-.theme__body a:hover { background: var(--accent); }
-.theme__body ol, .theme__body ul { padding-left: 1.25rem; }
+.project__body { color: var(--ink-soft); }
+.project__body p { margin: 0 0 1.1rem; }
+.project__body p:last-child { margin-bottom: 0; }
+.project__body a { border-bottom: 1px solid var(--accent-deep); }
+.project__body a:hover { background: var(--accent); }
+.project__body ol, .project__body ul { padding-left: 1.25rem; }
 
-/* Theme prose runs much taller than its figure, so centering leaves a dead gap.
+/* Project prose runs much taller than its figure, so centering leaves a dead gap.
    Top-align instead, and let the figure track the text as it scrolls. */
-.theme .split { align-items: start; }
-.theme__figure { margin: 0; position: sticky; top: 108px; }
-.theme__figure img { width: 100%; max-height: 420px; object-fit: contain; }
+.project .split { align-items: start; }
+.project__figure { margin: 0; position: sticky; top: 108px; }
+.project__figure img { width: auto; max-width: 100%; max-height: 420px; }
 
 /* ==========================================================================
    Publications — geometry taken from the reference's .portfolio16_item:
