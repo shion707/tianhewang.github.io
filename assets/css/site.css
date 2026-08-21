@@ -517,10 +517,11 @@ a { color: inherit; text-decoration: none; }
 .pubs__list > :first-child { padding-top: 0; }
 .pubs__list > :last-child  { padding-bottom: 0; }
 
-/* Entries hold a common height so the page keeps an even rhythm whether or not
-   an entry carries a figure: 160px of figure box and the tallest text block at
-   154px both sit inside the same 240px row. */
-.pub { display: grid; min-height: 240px; }
+/* Only entries carrying a figure hold a floor, set by the 160px figure box plus
+   the 40px padding either side. An entry without one sizes to its text, so a
+   two-line book chapter does not sit in a mostly empty row. */
+.pub { display: grid; }
+.pub--thumb { min-height: 240px; }
 
 /* Two-column only when an entry actually carries a figure, so text-only
    entries do not leave an empty gutter. */
@@ -578,7 +579,8 @@ a { color: inherit; text-decoration: none; }
   .pub--thumb { grid-template-columns: 1fr; row-gap: 24px; }
   .pub__thumb { max-width: 320px; height: auto; }
   .pub__thumb img { height: auto; }
-  .pub { padding-block: 28px; min-height: 0; }
+  .pub { padding-block: 28px; }
+  .pub--thumb { min-height: 0; }
   .pubs__jump { margin-bottom: 36px; }
 }
 
