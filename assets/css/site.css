@@ -9,7 +9,7 @@
   --ink-muted:    #666666;
   --nav-ink:      #222222;   /* nav links are the one thing it sets to #222 */
   --rule:         rgba(0, 0, 0, .12);  /* neutral, not blue-tinted: the reference's only rule is black */
-  --accent:       #d7edfb;   /* pale sky blue — the single accent */
+  --accent:       #d2f5fb;   /* pale cyan-blue — matches the illustration discs */
   --accent-deep:  #8cc7e8;
   --bg:           #ffffff;
   --footer-bg:    #000000;
