@@ -16,8 +16,15 @@ description: "Peer-reviewed publications and manuscripts under review by Tianhe 
 
 <section class="pubs">
   <div class="wrap">
-    <h2 class="pubs__heading">Reviews and book chapters</h2>
+    <nav class="pubs__jump" aria-label="Jump to a section">
+      <a href="#reviews">Reviews and book chapters</a>
+      <a href="#under-review">Manuscripts under review</a>
+      <a href="#peer-reviewed">Peer-reviewed publications</a>
+      <a href="#conference">Conference proceedings</a>
+    </nav>
+
     <div class="pubs__list">
+      <h2 class="pubs__heading" id="reviews">Reviews and book chapters</h2>
       <article class="pub" data-key="timing-behind-motor-control">
         <div class="pub__text">
           <h3 class="pub__title">Timing behind motor control</h3>
@@ -30,10 +37,7 @@ description: "Peer-reviewed publications and manuscripts under review by Tianhe 
           <p class="pub__meta"><strong>T Wang</strong><sup class="corr">*</sup>, D Narain, RB Ivry (in press) In M. Manto et al. (Eds.), <em>Encyclopedic Dictionary of the Cerebellum</em>. Springer</p>
         </div>
       </article>
-    </div>
-
-    <h2 class="pubs__heading">Manuscripts under review</h2>
-    <div class="pubs__list">
+      <h2 class="pubs__heading" id="under-review">Manuscripts under review</h2>
       <article class="pub pub--thumb" data-key="statistical-factorization-in-motor-control">
         <div class="pub__text">
           <h3 class="pub__title">Statistical factorization in motor control: Opposing biases from statistics on different timescales enable fast and accurate behavior</h3>
@@ -62,10 +66,7 @@ description: "Peer-reviewed publications and manuscripts under review by Tianhe 
                alt="Figure from this paper" loading="lazy">
         </div>
       </article>
-    </div>
-
-    <h2 class="pubs__heading">Peer-reviewed publications</h2>
-    <div class="pubs__list">
+      <h2 class="pubs__heading" id="peer-reviewed">Peer-reviewed publications</h2>
       <article class="pub pub--thumb" data-key="motor-biases-reflect-a-misalignment-between-vis">
         <div class="pub__text">
           <h3 class="pub__title">Motor biases reflect a misalignment between visual and proprioceptive reference frames</h3>
@@ -228,10 +229,7 @@ description: "Peer-reviewed publications and manuscripts under review by Tianhe 
                alt="Figure from this paper" loading="lazy">
         </div>
       </article>
-    </div>
-
-    <h2 class="pubs__heading">Conference proceedings</h2>
-    <div class="pubs__list">
+      <h2 class="pubs__heading" id="conference">Conference proceedings</h2>
       <article class="pub" data-key="the-motor-system-optimizes-decision-making">
         <div class="pub__text">
           <h3 class="pub__title">The motor system optimizes decision-making by dynamically adjusting its sensitivity to environmental and internal uncertainties</h3>
