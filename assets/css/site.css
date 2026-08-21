@@ -486,12 +486,9 @@ a { color: inherit; text-decoration: none; }
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: normal;
-  margin: 0;
-  padding-block: 40px 0;
+  margin: 0 0 40px;
   color: var(--ink);
-  scroll-margin-top: 104px;          /* clear the sticky header when jumped to */
 }
-.pubs__list > .pubs__heading:first-child { padding-top: 0; }
 
 /* Jump links: the section names lead the page so a reader can go straight to
    one, and the list below then runs unbroken. */
@@ -516,7 +513,7 @@ a { color: inherit; text-decoration: none; }
    groups never break the rhythm. */
 .pubs__list { display: grid; row-gap: 0; }
 .pubs__list > * + * { border-top: 1px solid #000; }
-.pub { padding-block: 40px; }
+.pub { padding-block: 40px; scroll-margin-top: 104px; }
 .pubs__list > :first-child { padding-top: 0; }
 .pubs__list > :last-child  { padding-bottom: 0; }
 
@@ -582,7 +579,6 @@ a { color: inherit; text-decoration: none; }
   .pub__thumb { max-width: 320px; height: auto; }
   .pub__thumb img { height: auto; }
   .pub { padding-block: 28px; min-height: 0; }
-  .pubs__heading { padding-block: 28px 0; }
   .pubs__jump { margin-bottom: 36px; }
 }
 
