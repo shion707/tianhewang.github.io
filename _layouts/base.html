@@ -68,9 +68,9 @@
         <div>
           <p class="footer__h">Elsewhere</p>
           <ul class="footer__links">
-            {% if site.author.googlescholar %}<li><a href="{{ site.author.googlescholar }}" rel="noopener">Google Scholar</a></li>{% endif %}
-            {% if site.author.orcid %}<li><a href="{{ site.author.orcid }}" rel="noopener">ORCID</a></li>{% endif %}
-            {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}" rel="noopener">GitHub</a></li>{% endif %}
+            {% if site.author.googlescholar %}<li><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>{% endif %}
+            {% if site.author.orcid %}<li><a href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a></li>{% endif %}
+            {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}" rel="noopener noreferrer" target="_blank">GitHub</a></li>{% endif %}
             <li><a href="{{ '/cv/' | relative_url }}">Curriculum Vitae</a></li>
           </ul>
         </div>
