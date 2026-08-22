@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Tianhe's home"
+title                    : "Tianhe Wang"
 title_separator          : "-"
 name                     : &name "Tianhe Wang"
-description              : &description "Tianhe Wang — C.V. Starr Fellow at the Princeton Neuroscience Institute. How the brain acquires new motor skills: behavioral experiments, neuropsychological testing, and computational modeling."
+description              : &description "Tianhe Wang — C.V. Starr Fellow at the Princeton Neuroscience Institute. Human motor control and motor learning: behavioral experiments, neuropsychological testing, and computational modeling."
 url                      : "https://tianhewang.net" # custom domain, set via the CNAME file
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shion707/tianhewang.github.io"
